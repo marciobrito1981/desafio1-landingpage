@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#menusuperior{
+   background-color:#303030;
+   color: white;
+   padding-top: 150px;
+   padding-bottom: 90px;
+}
+
+#titulo-menu-superior{
+    font-size: 60px;
+    margin-left: 50px;
+}
+#texto-menu-superior{
+    margin-left: 50px;
+}
+
+#menuinformativo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 100px;
+}
+#historia{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 80px;
+}
+#div-texto-historia{
+    text-align: center;
+    margin-top: 150px;
+
+}
+#titulo-historia{
+    font-size: 40px;
+}
+#texto-historia{
+    font-size: 25px;
+    font-weight: 200;
+}
+#foto{
+    border-radius: 5px;
+}
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+#titulo-formulario{
+    margin-top: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+input{
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    width: 300px;
+    height: 70px;
+    background-color:#C07212;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: #dda35d;
+    color: white;
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px  #012a3b77;
+}
